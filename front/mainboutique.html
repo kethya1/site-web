@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Boutique </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel ="stylesheet" href="stylesindex.css">
+   
+
+        </head>
+        <body>
+<header>
+ 
+    <nav>
+        <div class="logo">
+            <img src="logo4.png" alt="Révisty" height="45">
+        </div>
+        <div class="menu">
+            <a href="main_site.html">Accueil</a>
+            <a href="calendrier.php">Cours</a>
+            <a href="mainboutique.html">Boutique</a>
+            <a href="faq.html">FAQ</a>
+            <a href="formulaire.html">Contact</a>
+           
+        </div>
+         <a href="connexion.html" class="connecter">Se connecter</a>
+    </nav>
+    </header>
+
+
+    <section class="boutique">
+
+        <div class="article">
+            <div class="img-container">
+                   <img src="Stylo.png" img-front" alt="stylo">
+                   
+            </div>
+       
+        <h2> Stylo 3.99 €</h2>
+        <label for ="quantite1"></label>
+        <input type="number" id="quantite1" value="1" min="1">
+        <button onclick="ajouterAuPanier(1)"> Ajouter au panier</button>
+    </div>
+
+    <div class="article">
+
+        <div class="img-container">
+                   <img src="Gomme.png" class="img-front" alt="gomme">
+                  
+            </div>
+       
+        <h2> Gomme 2.99 € </h2>
+    
+        <label for ="quantite2"></label>
+        <input type="number" id="quantite2" value="1" min="1">
+        <button onclick="ajouterAuPanier(2)"> Ajouter au panier </button>
+    </div>
+
+    <div class="article">
+        <div class="img-container">
+                   <img src="Carnet.png" class="img-front" alt="livre">
+                  
+            </div>
+       
+        <h2> Carnet 5.49 €</h2>
+   
+        <label for ="quantite3"></label>
+        <input type="number" id="quantite3" value="1" min="1">
+        <button onclick="ajouterAuPanier(3)"> Ajouter au panier </button>
+    </div>
+
+    <div class="article">
+        <img src="Surligneur.png" class= "img-front" alt="surligneur">
+        <h2> Surligneur 1.99 €</h2>
+    
+        <label for ="quantite4"></label>
+        <input type="number" id="quantite4" value="1" min="1">
+        <button onclick="ajouterAuPanier(4)"> Ajouter au panier </button>
+    </div>
+
+
+    <div class="article">
+        <img src="Calculatrice.png" class="img-front" alt="calculatrice">
+        <h2> Calculatrice  9.99 €</h2>
+       
+        <label for ="quantite5"></label>
+        <input type="number" id="quantite5" value="1" min="1">
+        <button onclick="ajouterAuPanier(5)"> Ajouter au panier </button>
+    </div>
+
+    <div class="article">
+        <img src="Sac.png" class="img-front" alt="sac">
+        <h2> Sac 14.99 €</h2>
+ 
+        <label for ="quantite6"></label>
+        <input type="number" id="quantite6" value="1" min="1">
+        <button onclick="ajouterAuPanier(6)"> Ajouter au panier </button>
+    </div>
+   
+    <div class="article">
+        <img src="Minuteur.png" class="img-front" alt="minuteur">
+        <h2> Minuteur 4.99 €</h2>
+       
+        <label for ="quantite7"></label>
+        <input type="number" id="quantite7" value="1" min="1">
+        <button onclick="ajouterAuPanier(7)"> Ajouter au panier </button>
+    </div>
+    <div class="article">
+        <img src="Blanc.png" class="img-front" alt="blanco">
+        <h2> Blanc correcteur 1.49 €</h2>
+       
+        <label for ="quantite8"></label>
+        <input type="number" id="quantite8" value="1" min="1">
+        <button onclick="ajouterAuPanier(8)"> Ajouter au panier </button>
+    </div>
+
+    <div class="panier_lien">
+        <a href="panier.html">Voir le panier</a>       
+    </div>
+
+</section>
+
+
+
+<div class="ligne-separation"> </div>
+<div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/uvsq_universite/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/user/UVSQcommunication"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/school/universit-de-versailles-st--quentin-en-yvelines/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/UVSQ.78"><i class="fa-brands fa-facebook"></i></a>
+            
+            </div>
+            <ul class="list-inline">
+                
+                <li class="list-inline-item"><a href="main_site.html">Accueil</a></li>
+                <li class="list-inline-item"><a href="calendrier.php">Cours</a></li>
+                <li class="list-inline-item"><a href="mainboutique.html">Boutique</a></li>
+                <li class="list-inline-item"><a href="faq.html">FAQ</a></li>
+                <li class="list-inline-item"><a href="formulaire.html">Contact</a></li>
+                <li class="list-inline-item"><a href="connexion.html">Se connecter</a></li>
+            </ul>
+            <p class="copyright">© Révisty 2025</p>
+        </footer>
+    </div>
+
+
+
+<script src="panier.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Votre panier</title>
+    <link rel="stylesheet" href="stylesindex.css">
+    <link rel="stylesheet" href="panier.css">
+</head>
+<body>
+
+<header>
+ 
+    <nav>
+        <div class="logo">
+            <img src="logo4.png" alt="Révisty" height="45">
+        </div>
+        <div class="menu">
+            <a href="main_site.html">Accueil</a>
+            <a href="calendrier.php">Cours</a>
+            <a href="mainboutique.html">Boutique</a>
+            <a href="faq.html">FAQ</a>
+            <a href="formulaire.html">Contact</a>
+           
+        </div>
+         <a href="connexion.html" class="connecter">Se connecter</a>
+    </nav>
+    </header>
+
+
+
+    <h1>Votre panier</h1>
+   
+
+    <div id="panier_details">
+        <!-- Les articles ajoutés s'afficheront ici dynamiquement -->
+    </div>
+
+    <div class="panier-actions">
+        <button onclick="viderPanier()">Vider le panier</button>
+        <button onclick="continuerMesachats()">Continuer mes achats</button>
+        <button onclick="payer()">Procéder au paiement</button>
+    </div>
+
+        <script src="panier.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
