@@ -1,0 +1,53 @@
+/* stylecal.css */
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#calendar {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom:50px;
+  cursor:pointer;
+}
+
+.maths {
+  background-color: #4caf50 !important; /* vert */
+  color: white;
+}
+
+.physique {
+  background-color: #2196f3 !important; /* bleu */
+  color: white;
+}
+
+.anglais {
+  background-color: #ff9800 !important; /* orange */
+  color: white;
+}
+
+.histoire {
+  background-color: #9c27b0 !important; /* violet */
+  color: white;
+}
+
+.informatique {
+  background-color: #f44336 !important; /* rouge */
+  color: white;
+}
+
+.sport {
+  background-color: #ffeb3b !important; /* jaune */
+  color: black;
+}
+
+#calendar .fc-daygrid-event {
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 0.9em;
+}

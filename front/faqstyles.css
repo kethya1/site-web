@@ -1,0 +1,57 @@
+
+    
+        .faq {
+            background: url('jaydn-scandora-UCD_JyZyMWQ-unsplash.jpg');
+                background-attachment: fixed;
+            background-position: center;
+
+            padding: 60px 20px;
+            min-height: 100vh;
+        }
+        .faq h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 40px;
+            color: #f6f0f0;
+        }
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        .faq-item {
+            background-color: #f6f0f0;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .faq-item input {
+            display: none;
+        }
+        .faq-item label {
+            display: block;
+            padding: 20px;
+            cursor: pointer;
+            position: relative;
+            font-weight: bold;
+        }
+        .faq-item label::after {
+            content: '+';
+            position: absolute;
+            right: 20px;
+            font-size: 1.5em;
+        }
+        .faq-item input:checked + label::after {
+            content: '-';
+        }
+        .faq-content {
+            max-height: 0;
+            overflow: hidden;
+            padding: 0 20px;
+            transition: max-height 0.3s ease;
+        }
+        .faq-item input:checked ~ .faq-content {
+            max-height: 500px;
+            padding: 20px;
+        }
+  
