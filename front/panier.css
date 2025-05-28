@@ -66,27 +66,7 @@ h1 {
     margin-top: 10px;
 }
 
-.barre-livraison {
-    background: #eee;
-    border-radius: 20px;
-    overflow: hidden;
-    height: 10px;
-    margin: 15px 0;
-}
 
-.barre-livraison span {
-    display: block;
-    height: 100%;
-    width: 35%; /* À ajuster dynamiquement selon le total */
-    background-color: #d95d60;
-}
-
-.livraison-message {
-    font-size: 14px;
-    color: #b90000;
-    text-align: center;
-    margin-bottom: 10px;
-}
 
 .panier-actions {
     display: flex;
